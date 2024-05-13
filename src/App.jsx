@@ -7,12 +7,12 @@ import {
   responsiveFontSizes,
 } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import MainPage from "./MainPage/MainPage";
-import StockMarketPage from "./CoursePages/StockMarketPage";
-import CryptoPage from "./CoursePages/CryptoPage";
-import SwipeCards from "./SwipeCards";
-import coursesData from "../Data/CoursesData";
-import RealEstatePage from "./CoursePages/RealEstatePage";
+import MainPage from "./Components/MainPage/MainPage";
+import StockMarketPage from "./Components/CoursePages/StockMarketPage";
+import CryptoPage from "./Components/CoursePages/CryptoPage";
+import SwipeCards from "./Components/SwipeCards";
+import coursesData from "./Data/CoursesData";
+import RealEstatePage from "./Components/CoursePages/RealEstatePage";
 
 let theme = createTheme({
   palette: {
